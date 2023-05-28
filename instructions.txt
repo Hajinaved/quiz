@@ -1,9 +1,0 @@
-Instructions to run the project.
---------------------------------
-
-. extract the zip file in your system. (e.g: D:\Users\Javed> )
-. create the new database in MYSQL with the name quiz.
-. open the command prompt and run the following command
-	- D:\Users\Javed> mvnw spring-boot:run
-. open the postman hit the endpoints mension in the postman collection.
-. you can also use browser to hit the endpoints directly for get API.
