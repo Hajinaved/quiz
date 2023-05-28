@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "21274516-97e0-4d16-8f55-c96af4843283",
+		"name": "Quiz API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17775664"
+	},
+	"item": [
+		{
+			"name": "Quizzes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\":\"What is your name\",\r\n    \"options\":[\"Javed\", \"Naved\", \"Junaid\"],\r\n    \"answer\":\"Javed\",\r\n    \"start\":\"2023-05-28\",\r\n    \"end\":\"2023-05-29\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8888/api/quizzes"
+			},
+			"response": []
+		},
+		{
+			"name": "Quizzes All",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8888/api/quizzes/all"
+			},
+			"response": []
+		},
+		{
+			"name": "Quizzes Result",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8888/api/quizzes/3/result"
+			},
+			"response": []
+		},
+		{
+			"name": "Quizzes Active",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8888/api/quizzes/active"
+			},
+			"response": []
+		}
+	]
+}
